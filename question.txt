@@ -1,3 +1,12 @@
 test
 awal
 buku
+kuliah
+universitas
+aqua
+pensil
+bolpen
+kertas
+gedung
+tapir
+kucing

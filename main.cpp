@@ -1,17 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <fstream>
-#include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
-#include <algorithm>
 #include "question.h"
 
 using namespace std;
-
-
-
 
 int main(){
 	srand(time(NULL));

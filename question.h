@@ -17,17 +17,14 @@ struct Question {
   bool CheckAns(int val, string s);
 
   vector<string> questions;
-  int nkata;
 };
 
 //konstuktor: memasukkan kata-kata dari file eksternal ke questions
 Question::Question() {
-	nkata=0;
   	ifstream infile("question.txt");
 	string question;
 	while(getline(infile,question)){
 		questions.push_back(question);
-		nkata++;
 	}
 }
 //Menentukan apakah integer val ada didalam vector<integer> v
